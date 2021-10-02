@@ -1,8 +1,8 @@
-# Social NLP S2DS Project: Social Metric Identifier
+# Natural Language Processing Data Extraction from Business Reports
 
 ## Contributors
 
-Lucas Das Dores, Isabel Ellerbrock, Jasper Hajonides, Angel Luis Jaso Tamame, Juliet Thompson
+Jasper Hajonides in collaboration with: Lucas Das Dores, Isabel Ellerbrock, Angel Luis Jaso Tamame, Juliet Thompson
 
 ### Set up
 
