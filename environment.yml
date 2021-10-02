@@ -1,0 +1,25 @@
+﻿name: SocialNLP
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8*
+  - numpy=1.20*
+  - matplotlib=3.3*
+  - scikit-learn=0.24*
+  - ipywidgets=7.6*
+  - jupyterlab=3.1*
+  - openpyxl=3.0*
+  - pandas=1.2*
+  - spacy=2.3*
+  - spacy-model-en_core_web_sm=2.3*
+  - nltk=3.6*
+  - spyder=4.2*
+  - tqdm=4.62*
+  - pip=21.0*
+
+  - pip:
+    - pymupdf==1.18.15
+ 
+
+
