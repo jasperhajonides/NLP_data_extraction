@@ -24,37 +24,6 @@ pip chill > requirements.txt
 
 The functions we wrote iteratively read in pdf’s from a specified directory and perform NLP and machine learning to return the most likely page at which the specified metric occurs. 
 
-To return the identified pages and text for each of the metrics and all reports in the specified folder, 
-
-```python
-python generate_final_dataframe.py
-```
-
-More specifically, you can extract data from individual reports and for individual metrics using the `extract_given_metric.py` function.
-
-``` python 
-path = ‘/path/to/annual_report.pdf’
-metric = ‘metric’ #e.g., ‘n_employees’, ‘ltifr’ 
-df = extract_given_metric(path, metric)
-```
-
-The list of metrics that it is currently possible to locate within a PDF (if present) is as follows:
-
-```python
-“n_employees”
-“n_contractors”
-“n_fatalities”
-“ltifr”
-“trifr”
-“international_diversity”
-“company_gender_diversity”
-“board_gender_diversity”
-“company_ethnic_diversity”
-“board_ethnic_diversity”
-“healthcare”
-“parental_care”
-“ceo_pay_ratio”
-```
 
 
 
